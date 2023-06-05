@@ -511,7 +511,7 @@ main .banner-compras article h3 {
 
 /* promoção */
 .promo-section {
-    background-color: #f8f8f8;
+    background-color: #7d88f0;
     padding: 40px;
 }
 
@@ -632,7 +632,7 @@ font-family: var(--fontfamily-roboto);
 }
 
 .promo-details h3 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
@@ -689,18 +689,18 @@ font-family: var(--fontfamily-roboto);
 }
 
 .buy-button {
-    background: var(--cor-destaque);
+    background: linear-gradient(45deg, var(--cor-secundaria), var(--cor-fundo));
     color: #ffffff;
-    padding: 10px 20px;
+    padding: 20px 30px;
     border: none;
     font-size: 16px;
     cursor: pointer;
     border-radius: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
 }
 
 .buy-button:hover {
-    background-color: #ff6600;
+    background: var(--cor-destaque);
 }
 
 
