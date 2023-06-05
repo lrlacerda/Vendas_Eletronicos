@@ -314,7 +314,7 @@ main .banner-compras article h3 {
 
 .categoria-1 img {
     width: 100%;
-    max-height: 450px;
+    max-height: 510px;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -335,7 +335,7 @@ main .banner-compras article h3 {
 
 .categoria-4 img {
     width: 35%;
-    max-height: 250px;
+    max-height: 270px;
     object-fit: cover;
     border-radius: 8px;
     position: absolute;
@@ -632,10 +632,27 @@ font-family: var(--fontfamily-roboto);
 }
 
 .promo-details h3 {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 10px;
-}
-
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .promo-details h3 {
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+      text-shadow: none;
+    }
+    100% {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  }
+  
 .promo-details p {
     margin-bottom: 20px;
 }
